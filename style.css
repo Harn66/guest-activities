@@ -1,0 +1,49 @@
+:root {
+  --cream: #FAF6EE;
+  --panel: #F2EBDD;
+  --line: #DCD2C0;
+  --accent: #8A6420;
+  --ink: #1F4A3F;
+  --text: #22201C;
+  --soft: #4A453D;
+  --muted: #6B6459;
+  --fill: #F3DFA8;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--cream); color: var(--text); font-family: 'Jost', 'Sarabun', sans-serif; font-size: 17px; line-height: 1.55; }
+.page { max-width: 720px; margin: 0 auto; padding: 32px 18px 48px; }
+.th { font-family: 'Sarabun', sans-serif; }
+.eyebrow { margin: 0; text-align: center; font-size: 12px; font-weight: 600; letter-spacing: .28em; text-transform: uppercase; color: var(--accent); }
+h1 { margin: 10px 0 4px; text-align: center; font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 40px; line-height: 1.1; color: var(--ink); }
+.th-title { margin: 0; text-align: center; font-size: 18px; color: var(--ink); }
+.day { margin: 14px 0 0; text-align: center; font-family: 'Cormorant Garamond', serif; font-style: italic; font-weight: 500; font-size: 21px; color: var(--soft); }
+.day .th { font-style: normal; font-size: 16px; }
+.dot { color: var(--accent); }
+.photos { display: grid; gap: 10px; margin: 24px 0 6px; }
+.photos figure { margin: 0; border: 1px solid var(--line); background: var(--panel); }
+.photos a { display: block; }
+.photos img { width: 100%; height: auto; display: block; }
+.photos:not(:has(figure))::before { content: "Photos coming soon · รูปภาพเร็วๆ นี้"; display: block; padding: 56px 16px; text-align: center; font-size: 15px; color: var(--muted); background: var(--panel); border: 1px solid var(--line); }
+.hint { margin: 0 0 22px; text-align: center; font-size: 14px; color: var(--muted); }
+.hint .th { display: block; }
+.photos:not(:has(figure)) + .hint { display: none; }
+.text { margin: 0 0 10px; color: var(--soft); }
+.text.th { color: var(--ink); }
+.facts { display: grid; grid-template-columns: auto 1fr; gap: 10px 16px; margin: 24px 0; padding: 18px 0; border-top: 1.5px solid var(--ink); border-bottom: 1px solid var(--line); }
+.facts dt { font-size: 13px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+.facts dt .th { display: block; letter-spacing: 0; text-transform: none; font-weight: 500; color: var(--muted); }
+.facts dd { margin: 0; font-family: 'Cormorant Garamond', serif; font-weight: 700; font-size: 20px; }
+.fill { background: var(--fill); padding: 0 4px; font-family: 'Jost', sans-serif; font-size: 15px; font-weight: 500; }
+.book { margin: 24px 0; padding: 18px 20px; background: var(--panel); border: 1px solid var(--line); text-align: center; }
+.book p { margin: 0; }
+.book .th { margin-top: 4px; color: var(--ink); }
+.back { text-align: center; }
+a { color: var(--accent); }
+a:hover { color: #5E4415; }
+.back a { display: inline-block; padding: 12px 8px; }
+.back .th { display: block; font-size: 15px; }
+.cards { list-style: none; margin: 28px 0; padding: 0; display: grid; gap: 12px; }
+.card { display: flex; flex-direction: column; gap: 2px; padding: 16px 18px; background: #fff; border: 1px solid var(--line); text-decoration: none; color: var(--text); }
+.card:hover { border-color: var(--accent); }
+.card-day { font-size: 13px; font-weight: 500; letter-spacing: .08em; color: var(--accent); }
+.card-title { font-family: 'Cormorant Garamond', serif; font-weight: 700; font-size: 24px; line-height: 1.2; color: var(--ink); }
