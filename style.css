@@ -48,3 +48,22 @@ a:hover { color: #5E4415; }
 .card:hover { border-color: var(--accent); }
 .card-day { font-size: 13px; font-weight: 500; letter-spacing: .08em; color: var(--accent); }
 .card-title { font-family: 'Cormorant Garamond', serif; font-weight: 700; font-size: 24px; line-height: 1.2; color: var(--ink); }
+.jump { margin: 18px 0 0; text-align: center; }
+.jump a { display: inline-block; padding: 10px 18px; border: 1px solid var(--accent); border-radius: 999px; text-decoration: none; font-weight: 500; }
+.jump .th { display: block; font-size: 15px; }
+.sites { margin: 36px 0 28px; }
+.sites h2 { margin: 0; text-align: center; font-family: 'Cormorant Garamond', serif; font-weight: 700; font-size: 28px; line-height: 1.15; color: var(--ink); }
+.sites h2 .th { display: block; margin-top: 4px; font-size: 18px; font-weight: 500; }
+.site { margin: 18px 0 0; background: #fff; border: 1px solid var(--line); }
+.site img { display: block; width: 100%; height: auto; aspect-ratio: 750 / 276; object-fit: cover; }
+.site-body { padding: 14px 18px 18px; }
+.site h3 { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 2px 10px; font-family: 'Sarabun', sans-serif; font-weight: 500; font-size: 23px; line-height: 1.3; color: var(--ink); }
+.site h3 .num { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--ink); color: #fff; font-family: 'Jost', sans-serif; font-size: 16px; font-weight: 600; }
+.site h3 .en { font-family: 'Cormorant Garamond', serif; font-weight: 700; font-size: 21px; color: var(--accent); }
+.site .age { margin: 6px 0 4px; font-size: 14px; color: var(--muted); }
+.site h4 { margin: 12px 0 2px; font-family: 'Sarabun', sans-serif; font-size: 16px; font-weight: 500; color: var(--ink); }
+.site h4 .en { margin-left: 4px; font-family: 'Jost', sans-serif; font-size: 11.5px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
+.site p { margin: 0; }
+.site p.en { margin-top: 2px; font-size: 15px; line-height: 1.45; color: var(--soft); }
+.sites .note { margin: 18px 0 0; text-align: center; font-size: 14px; color: var(--muted); }
+.nw { white-space: nowrap; }
